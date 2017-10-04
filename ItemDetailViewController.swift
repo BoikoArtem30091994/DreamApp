@@ -53,7 +53,9 @@ class ItemDetailViewController: UIViewController, UIPickerViewDataSource, UIPick
 //
 //
 //                        ad.saveContext()
+           
             
+//            print(store5.name)
             getStores()
             if itemToEdit != nil {
                 loadItemData()
